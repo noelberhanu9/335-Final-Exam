@@ -6,3 +6,9 @@ YouTube Video Link: (https://youtu.be/6McwiGWRFmQ)
 Website Link: (https://daily-journal-g6xw.onrender.com)
 APIs: Motivational Quote (https://zenquotes.io/)
 Contact Email:  nberhan9@terpmail.umd.edu
+
+
+  Unordered lists, and:
+  1. One
+  1. Two
+  1. Three
