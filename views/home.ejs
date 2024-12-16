@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+		<meta charset="utf-8">
+        <title>Welcome Page</title>
+        <link rel="stylesheet" href="/styles.css">
+	</head>
+    <body> 
+        <h1>Welcome To Your Journal!</h1>
+        <div class = "quote">
+            <strong>Motivational Quote: </strong> <%= quote %> <br>
+        </div>
+        <hr>
+        <p> Log a new journal Entry!</p>
+        <form action="/submit" method="POST">
+            Date: <input type="date" id="date" name="date" required><br>
+            Time:  <input type="time" id="time" name="time" required><br>
+            Title: <input type="text" id="title" name="title" required><br>
+            Entry: <br><textarea id="entry" name="entry" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+        <hr>
+        <a href="/view">View Entries</a>
+    </body>
+</html>
+
+
+
