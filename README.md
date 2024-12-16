@@ -1,6 +1,4 @@
 
-
-  Unordered lists, and:
   1. Submitted by: Noel Berhanu (nberhan9)
   1. App Description: Allow users to input a daily journal entry and generates
   a motivational quote from the API, also able to retrieve a past entry.
